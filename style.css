@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+}
+.card-img-top {
+    height: 225px;
+    object-fit: cover;
+}
+.custom-footer{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: blue;
+}

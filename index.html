@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_1</title>
+    <link href="./bootstrap.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Travel <span class="text-danger">Around</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Buttons -->
+    <div class="container mt-5">
+        <h2 class="text-success">Buttons</h2>
+        <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+            <button type="button" class="btn btn-outline-primary">Outline Primary</button>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="container mt-5">
+        <h2>Travel Destination</h2>
+        <div class="card" style="width: 18rem;">
+            <img src="https://c8.alamy.com/comp/2FX6Y5G/travel-collage-of-beautiful-places-of-the-world-with-reflection-on-white-2FX6Y5G.jpg" class="card-img-top" alt="Destination">
+            <div class="card-body">
+                <h5 class="card-title">Amazing Destination</h5>
+                <p class="card-text">Explore the beauty of this stunning place with our exclusive travel packages.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- List -->
+    <div class="container mt-5">
+        <h2>Travel Essentials</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Passport</li>
+            <li class="list-group-item">Travel Insurance</li>
+            <li class="list-group-item">Sunscreen</li>
+            <li class="list-group-item">Camera</li>
+            <li class="list-group-item">Travel Guide</li>
+        </ul>
+    </div>
+
+    <!-- Table -->
+    <div class="container mt-5">
+        <h2>Travel Packages</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Package</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>European Explorer</td>
+                    <td>10 Days</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Tropical Getaway</td>
+                    <td>7 Days</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Asian Adventure</td>
+                    <td>14 Days</td>
+                    <td>$2000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Dropdown -->
+    <div class="container mt-5">
+        <h2>Choose Destination</h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Destination
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Paris</a></li>
+                <li><a class="dropdown-item" href="#">Italy</a></li>
+                <li><a class="dropdown-item" href="#">New York</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="container mt-5">
+        <h2>Booking Progress</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+    </div>
+
+     <!-- Pagination -->
+     <div class="container mt-5">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
